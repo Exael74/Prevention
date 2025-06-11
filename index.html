@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Customer Service Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div class="energy-particles"></div>
+    
+    <header>
+        <div class="logo-container">
+            <div class="logo logo-trieagle">
+                <div class="logo-glow"></div>
+                <img src="trieagle-energy-logo.png" alt="Trieagle Energy">
+            </div>
+            <div class="logo logo-txu">
+                <div class="logo-glow"></div>
+                <img src="txu-energy-logo.png" alt="TXU Energy">
+            </div>
+            <div class="logo logo-ambit">
+                <div class="logo-glow"></div>
+                <img src="ambit-energy-logo.png" alt="Ambit Energy">
+            </div>
+        </div>
+        <h1 class="main-title"><span class="text-gradient">Energy Customer Service</span> <span class="highlight">Excellence Portal</span></h1>
+        <p class="tagline">Delivering exceptional service across all customer interactions</p>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#branding" class="nav-link nav-branding"><i class="fas fa-shield-alt"></i> Brand Identity</a></li>
+            <li><a href="#bills" class="nav-link nav-bills"><i class="fas fa-dollar-sign"></i> Summer Bill Management</a></li>
+            <li><a href="#escalation" class="nav-link nav-escalation"><i class="fas fa-headset"></i> Call Escalation Protocol</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Brand Identity Section - UPDATED -->
+        <section id="branding" class="section section-branding">
+            <div class="section-header">
+                <div class="icon-container"><i class="fas fa-shield-alt"></i></div>
+                <h2>Brand Identity Management</h2>
+            </div>
+            
+            <div class="content-wrapper">
+                <div class="info-highlight">
+                    <div class="highlight-icon"><i class="fas fa-exclamation-circle"></i></div>
+                    <p>Customer service agents must <strong>never reveal</strong> that we support all three energy providers!</p>
+                </div>
+                
+                <div class="card-container">
+                    <div class="info-card brand-card" data-company="trieagle">
+                        <div class="card-header">
+                            <img src="trieagle-energy-logo.png" alt="Trieagle Energy" class="card-logo">
+                            <h3>Trieagle Energy</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4>Distinctive Offerings</h4>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Fixed-rate plans with no hidden fees</li>
+                                <li><i class="fas fa-check"></i> Lower early termination fees than competitors</li>
+                                <li><i class="fas fa-check"></i> Flexible payment arrangements for past-due accounts</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card brand-card" data-company="txu">
+                        <div class="card-header">
+                            <img src="txu-energy-logo.png" alt="TXU Energy" class="card-logo">
+                            <h3>TXU Energy</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4>Distinctive Offerings</h4>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Cash-back loyalty rewards program</li>
+                                <li><i class="fas fa-check"></i> Customizable usage alerts and notifications</li>
+                                <li><i class="fas fa-check"></i> Extended service guarantees on electrical equipment</li>
+                                <li><i class="fas fa-check"></i> Specialized plans for EV owners and smart homes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card brand-card" data-company="ambit">
+                        <div class="card-header">
+                            <img src="ambit-energy-logo.png" alt="Ambit Energy" class="card-logo">
+                            <h3>Ambit Energy</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4>Distinctive Offerings</h4>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Unique tiered discount structure based on usage</li>
+                                <li><i class="fas fa-check"></i> "Free Energy" referral program for customers</li>
+                                <li><i class="fas fa-check"></i> Lower security deposit requirements than competitors</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="warning-banner">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>Never compare plans, fees, or guarantees between our energy providers during customer interactions!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Summer Bill Management Section -->
+        <section id="bills" class="section section-bills">
+            <div class="section-header">
+                <div class="icon-container"><i class="fas fa-dollar-sign"></i></div>
+                <h2>Summer Bill Management</h2>
+            </div>
+            
+            <div class="content-wrapper">
+                <div class="temperature-animation">
+                    <div class="thermometer">
+                        <div class="thermometer-tube">
+                            <div class="thermometer-mercury"></div>
+                        </div>
+                        <div class="thermometer-bulb"></div>
+                    </div>
+                    <div class="bill-stack">
+                        <div class="bill"></div>
+                        <div class="bill"></div>
+                        <div class="bill"></div>
+                    </div>
+                </div>
+                
+                <div class="info-highlight">
+                    <div class="highlight-icon"><i class="fas fa-lightbulb"></i></div>
+                    <p>Summer months see a <strong>30-50% increase</strong> in average energy bills due to cooling demands!</p>
+                </div>
+                
+                <div class="explanation-cards">
+                    <div class="info-card explanation-card">
+                        <div class="card-header">
+                            <i class="fas fa-temperature-high"></i>
+                            <h3>Why Bills Increase</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="feature-list">
+                                <li><i class="fas fa-arrow-up"></i> Air conditioning runs longer and more frequently</li>
+                                <li><i class="fas fa-arrow-up"></i> Peak demand pricing during summer months</li>
+                                <li><i class="fas fa-arrow-up"></i> Additional cooling appliances in use</li>
+                                <li><i class="fas fa-arrow-up"></i> Longer daylight hours change usage patterns</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card communication-card">
+                        <div class="card-header">
+                            <i class="fas fa-comments"></i>
+                            <h3>Customer Communication</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="script-example">
+                                <h4>Recommended Script</h4>
+                                <blockquote>
+                                    "I understand your concern about the bill increase. During summer months, cooling costs typically account for up to 50% of energy usage. The recent temperature increase from 80°F in May to 95°F in June has significantly impacted your usage."
+                                </blockquote>
+                            </div>
+                            <div class="do-dont">
+                                <div class="do-section">
+                                    <h4><i class="fas fa-check-circle"></i> DO</h4>
+                                    <ul>
+                                        <li>Show empathy</li>
+                                        <li>Cite specific temperature data</li>
+                                        <li>Offer usage comparisons</li>
+                                    </ul>
+                                </div>
+                                <div class="dont-section">
+                                    <h4><i class="fas fa-times-circle"></i> DON'T</h4>
+                                    <ul>
+                                        <li>Use technical jargon</li>
+                                        <li>Sound dismissive</li>
+                                        <li>Rush the explanation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card solutions-card">
+                        <div class="card-header">
+                            <i class="fas fa-lightbulb"></i>
+                            <h3>Solutions to Offer</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="solutions-grid">
+                                <div class="solution-item">
+                                    <div class="solution-icon"><i class="fas fa-calendar-alt"></i></div>
+                                    <h4>Budget Billing</h4>
+                                    <p>Spread costs evenly throughout the year</p>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                                    <h4>Payment Plans</h4>
+                                    <p>Extended time to pay summer bills</p>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon"><i class="fas fa-chart-line"></i></div>
+                                    <h4>Usage Analysis</h4>
+                                    <p>Identify high-usage appliances</p>
+                                </div>
+                                <div class="solution-item">
+                                    <div class="solution-icon"><i class="fas fa-leaf"></i></div>
+                                    <h4>Energy Tips</h4>
+                                    <p>Practical ways to reduce consumption</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call Escalation Protocol Section -->
+        <section id="escalation" class="section section-escalation">
+            <div class="section-header">
+                <div class="icon-container"><i class="fas fa-headset"></i></div>
+                <h2>Call Escalation Protocol</h2>
+            </div>
+            
+            <div class="content-wrapper">
+                <div class="info-highlight danger">
+                    <div class="highlight-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                    <p><strong>CRITICAL:</strong> Always transfer escalated calls to ASG - NEVER to US BASED ASG!</p>
+                </div>
+                
+                <div class="escalation-flow">
+                    <div class="flow-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Prevent Escalation</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Active listening</li>
+                                <li><i class="fas fa-check"></i> Validate feelings</li>
+                                <li><i class="fas fa-check"></i> Take ownership</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flow-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="flow-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>De-escalate</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Lower voice tone</li>
+                                <li><i class="fas fa-check"></i> Use customer's name</li>
+                                <li><i class="fas fa-check"></i> Focus on solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flow-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="flow-step highlight-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>If Needed, Transfer</h3>
+                            <div class="transfer-info">
+                                <div class="correct-transfer">
+                                    <i class="fas fa-check-circle"></i>
+                                    <p>Transfer to ASG</p>
+                                </div>
+                                <div class="wrong-transfer">
+                                    <i class="fas fa-times-circle"></i>
+                                    <p>NEVER to US BASED ASG</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="escalation-scenarios">
+                    <h3 class="scenarios-title"><i class="fas fa-theater-masks"></i> Customer Scenarios</h3>
+                    
+                    <div class="scenario-tabs">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" data-scenario="angry">Angry Customer</button>
+                            <button class="tab-btn" data-scenario="confused">Confused Customer</button>
+                            <button class="tab-btn" data-scenario="persistent">Persistent Customer</button>
+                        </div>
+                        
+                        <div class="tab-content">
+                            <div class="scenario-content active" id="angry-scenario">
+                                <div class="scenario-conversation">
+                                    <div class="conversation-bubble customer">
+                                        <p>"This bill is ridiculous! I want to speak to a manager right now!"</p>
+                                    </div>
+                                    <div class="conversation-bubble agent correct">
+                                        <p>"I understand your frustration, Mr. Johnson. I'd feel the same way. Let me look at your account and see what options we have to address this high bill together."</p>
+                                    </div>
+                                </div>
+                                <div class="scenario-tips">
+                                    <h4>Key Techniques:</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Acknowledge emotion without getting defensive</li>
+                                        <li><i class="fas fa-check"></i> Use customer's name</li>
+                                        <li><i class="fas fa-check"></i> Offer immediate action</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="scenario-content" id="confused-scenario">
+                                <div class="scenario-conversation">
+                                    <div class="conversation-bubble customer">
+                                        <p>"I don't understand why my bill doubled. This makes no sense!"</p>
+                                    </div>
+                                    <div class="conversation-bubble agent correct">
+                                        <p>"I can help explain what happened, Ms. Garcia. Your bill shows your AC usage increased by 45% compared to last month, which matches the temperature increase in your area. Let me walk you through the details."</p>
+                                    </div>
+                                </div>
+                                <div class="scenario-tips">
+                                    <h4>Key Techniques:</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Provide clear, simple explanations</li>
+                                        <li><i class="fas fa-check"></i> Reference specific account data</li>
+                                        <li><i class="fas fa-check"></i> Offer to break down the bill step-by-step</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="scenario-content" id="persistent-scenario">
+                                <div class="scenario-conversation">
+                                    <div class="conversation-bubble customer">
+                                        <p>"I've asked three times already. I want to speak to your US-based supervisor now!"</p>
+                                    </div>
+                                    <div class="conversation-bubble agent correct">
+                                        <p>"I understand you'd like to speak with a supervisor. I'd be happy to transfer you to our dedicated escalation team at ASG who can address your concerns immediately."</p>
+                                    </div>
+                                    <div class="conversation-bubble agent wrong">
+                                        <p>"I'll transfer you to our US BASED ASG team."</p>
+                                    </div>
+                                </div>
+                                <div class="scenario-tips">
+                                    <h4>Key Techniques:</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Acknowledge the request without promising specifics</li>
+                                        <li><i class="fas fa-check"></i> Transfer only to ASG</li>
+                                        <li><i class="fas fa-times"></i> Never mention or transfer to US BASED ASG</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="company-logos">
+                <img src="trieagle-energy-logo.png" alt="Trieagle Energy">
+                <img src="txu-energy-logo.png" alt="TXU Energy">
+                <img src="ambit-energy-logo.png" alt="Ambit Energy">
+            </div>
+            <p>&copy; 2025 Energy Customer Service Excellence Portal. Internal use only.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
